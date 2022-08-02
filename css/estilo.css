@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --cor-branco-alfa: rgba(7, 6, 6, 0.9);
+    --cor-secundaria: #000000;
+    --cor-texto-secundario: #000000;
+    --cor-primaria: #000000;
+    --cor-fundo: red; 
+}
+
+html,
+body{
+    background-color: rgb(190, 5, 5);
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background-color: rgb(184, 6, 6);
+    color: var(--cor-branco-alfa);
+    height: 225px;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+header h1{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+header h2{
+    font-size: 0.75rem;
+    font-weight: 300;
+}
+
+#seguidores-seguindo-img{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -95px;
+}
+
+#seguidores-seguindo-img img{
+    border-radius: 95px;
+    box-shadow:
+     0 0 0 6px rgb(131, 0, 0),
+     0 0 10px 10px rgba(0,0,0,0.2);
+    width: 190px;
+}
+
+#seguidores-seguindo-img .numero{
+    color: var(--cor-secundaria);
+     font-size: 2rem;
+     font-weight: 700;
+}
+
+#seguidores-seguindo-img .texto-cinza{
+    color: var(--cor-texto-secundario);
+    font-size: 00.75rem;
+}
+
+#container-seguidores-seguindo{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+#Sobre{
+    background: var(--cor-fundo);
+    padding: 3rem;
+}
+
+#Sobre h1{
+    color: var(--cor-primaria);
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+#Sobre p{
+    line-height: 2rem;
+}
+
+#acoes{
+    padding: 3rem;
+}
+
+#acoes a{
+    display: block;
+    background: var(--cor-fundo);
+    border-radius: 3rem;
+    font-weight: bold;
+    letter-spacing: 0.25rem;
+    color: rgb(123, 255, 0);
+    padding: 2rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
